@@ -2,8 +2,10 @@
   "name": "main-package",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
+    "preinstall": "./scripts/relink-packages.sh",
+    "relink": "./scripts/relink-packages.sh",
     "test": "mocha --require @babel/register"
   },
   "author": "",
@@ -15,7 +17,8 @@
     "chai": "^4.2.0",
     "mocha": "^6.2.0"
   },
-  "dependencies": {
+  "dependencies": {},
+  "peerDependencies": {
     "secondary-package": "^1.0.0"
   }
 }
