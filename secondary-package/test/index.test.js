@@ -6,4 +6,4 @@ describe('importing from a linked library', () => {
         expect(C.helloWorld).to.be.ok;
         expect(C.helloWorld).to.equal('hello, world!');
     });
-})
+});
