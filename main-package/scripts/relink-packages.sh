@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-npm link ../secondary-package
+# npm link ../secondary-package
