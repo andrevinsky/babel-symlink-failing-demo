@@ -1,6 +1,9 @@
 # babel-symlink-failing-demo
 A showcase that demonstrates how a linked package (of some shared code) is failing to transpile in Babel
 
+## Status:
+Fixed. [Commit](https://github.com/andrevinsky/babel-symlink-failing-demo/commit/db57ea3709c7c9ce0bbccab6f4e4371a74dce2f9)
+
 
 ## Description
 
